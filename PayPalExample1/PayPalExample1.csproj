@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CashExpressMoneyBroker.cs" />
+    <Compile Include="CashExpressMoneyBrokerAdapter1.cs" />
     <Compile Include="IPaymentAdapter.cs" />
     <Compile Include="PayPal.cs" />
     <Compile Include="PayPalAdapter1.cs" />

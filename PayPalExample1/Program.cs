@@ -50,7 +50,11 @@ namespace PayPalExample1
             paypalAdapter1 = new PayPalAdapter1(paypalWithoutAdapter3);
             paypalAdapter1.Pay(50.90D);
 
-
+            // Paying CashExpressMoneyBroker
+            Print($"Results with CashExpressMoneyBrokerAdapter1");
+            CashExpressMoneyBroker cashexpressMoneyBroker = new CashExpressMoneyBroker();
+            CashExpressMoneyBrokerAdapter1 cashexpressMoneyBrokerAdapter1 = new CashExpressMoneyBrokerAdapter1(cashexpressMoneyBroker);
+            cashexpressMoneyBrokerAdapter1.Pay(783.84D);
             // Wait here to view Output
             Console.ReadLine();
 

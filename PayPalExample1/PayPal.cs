@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace PayPalExample1
 {
+    /// <summary>
+    /// This is Third Party Component
+    /// </summary>
     public class PayPal
     {
         public PayPal()
@@ -15,12 +18,12 @@ namespace PayPalExample1
 
         public void SendPayment(double amount)
         {
-            Console.WriteLine($"Paying via PayPal: ${amount}");
+            Console.WriteLine($"Paying via SendPayment: ${amount}");
         }
 
         public void PayPayment(double amount)
         {
-            Console.WriteLine($"Paying via PayPal: ${amount}");
+            Console.WriteLine($"Paying via PayPayment: ${amount}");
         }
     }
 }
