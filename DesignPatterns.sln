@@ -7,11 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "Struc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{4063A2F1-1D47-4494-8448-224EFAA16074}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalExample1", "PayPalExample1\PayPalExample1.csproj", "{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4063A2F1-1D47-4494-8448-224EFAA16074} = {CD85FB00-760E-4647-A8E7-FFB5BBCBDFA3}
+		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B} = {4063A2F1-1D47-4494-8448-224EFAA16074}
 	EndGlobalSection
 EndGlobal
