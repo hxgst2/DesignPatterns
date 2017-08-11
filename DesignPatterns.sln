@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{CD85FB00-760E-4647-A8E7-FFB5BBCBDFA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{4063A2F1-1D47-4494-8448-224EFAA16074}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4063A2F1-1D47-4494-8448-224EFAA16074} = {CD85FB00-760E-4647-A8E7-FFB5BBCBDFA3}
+	EndGlobalSection
+EndGlobal
