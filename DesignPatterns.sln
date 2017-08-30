@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayPalExample1", "PayPalExample1\PayPalExample1.csproj", "{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{C07BE10E-3688-4A14-AE2E-8862B8A37BEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UMLDependency", "UMLDependency", "{1D216613-363B-4B0B-AB6C-CFBEA477BD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssociationOfDependency", "AssociationOfDependency\AssociationOfDependency.csproj", "{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,10 @@ Global
 		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4063A2F1-1D47-4494-8448-224EFAA16074} = {CD85FB00-760E-4647-A8E7-FFB5BBCBDFA3}
 		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B} = {4063A2F1-1D47-4494-8448-224EFAA16074}
+		{1D216613-363B-4B0B-AB6C-CFBEA477BD69} = {C07BE10E-3688-4A14-AE2E-8862B8A37BEC}
+		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406} = {1D216613-363B-4B0B-AB6C-CFBEA477BD69}
 	EndGlobalSection
 EndGlobal
