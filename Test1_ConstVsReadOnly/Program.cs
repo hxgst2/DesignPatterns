@@ -8,10 +8,14 @@ namespace Test1_ConstVsReadOnly
 {
     class Program
     {
+        public const int ConstVariable = 4;
         static void Main(string[] args)
         {
+            const int ConstVariableInMethod = 4;
             var val = new TestClassReadOnly().ReadOnlyVariable;
-
+            // not allowed
+            // ConstVariable = 5;
+            // ConstVariableInMethod = 6;
         }
     }
 
