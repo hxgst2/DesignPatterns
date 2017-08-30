@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{CD85FB00-760E-4647-A8E7-FFB5BBCBDFA3}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UMLDependency", "UMLDependency", "{1D216613-363B-4B0B-AB6C-CFBEA477BD69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssociationOfDependency", "AssociationOfDependency\AssociationOfDependency.csproj", "{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp.PlayArea", "CSharp.PlayArea", "{726C445A-958F-402F-9F4E-A71ED53F5190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test1_ConstVsReadOnly", "Test1_ConstVsReadOnly\Test1_ConstVsReadOnly.csproj", "{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,10 @@ Global
 		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +46,6 @@ Global
 		{E106B27D-CEE0-4B8A-A3B5-E3F33BA1150B} = {4063A2F1-1D47-4494-8448-224EFAA16074}
 		{1D216613-363B-4B0B-AB6C-CFBEA477BD69} = {C07BE10E-3688-4A14-AE2E-8862B8A37BEC}
 		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406} = {1D216613-363B-4B0B-AB6C-CFBEA477BD69}
+		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B} = {726C445A-958F-402F-9F4E-A71ED53F5190}
 	EndGlobalSection
 EndGlobal
