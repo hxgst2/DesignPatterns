@@ -32,6 +32,10 @@ namespace Test1_ConstVsReadOnly
         {
             // Value assignment not allowed in Methods
             // ReadOnlyVariable = 4;
+            MyProperty = 3;
         }
+        // There are no ReadOnly Properties
+        public int MyProperty
+        { get; set; }
     }
 }

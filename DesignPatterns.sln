@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{CD85FB00-760E-4647-A8E7-FFB5BBCBDFA3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_DP_StructuralPatterns", "2_DP_StructuralPatterns", "{CD85FB00-760E-4647-A8E7-FFB5BBCBDFA3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdapterPattern", "AdapterPattern", "{4063A2F1-1D47-4494-8448-224EFAA16074}"
 EndProject
@@ -18,6 +18,14 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp.PlayArea", "CSharp.PlayArea", "{726C445A-958F-402F-9F4E-A71ED53F5190}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test1_ConstVsReadOnly", "Test1_ConstVsReadOnly\Test1_ConstVsReadOnly.csproj", "{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_DP_CreationalPatterns", "1_DP_CreationalPatterns", "{3FB62BFA-69BD-45FE-BA25-0BB5D79632A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1SingletonPattern", "1SingletonPattern", "{E20BF50C-D25B-4470-8296-1459BBAA94B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beginner_Singleton", "Beginner_Singleton\Beginner_Singleton.csproj", "{3166D61A-13A0-4B15-9260-95B0DEC94F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonDerekBanas", "SingletonDerekBanas\SingletonDerekBanas.csproj", "{7E07DADF-45DC-4490-B217-C35C859910A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +45,14 @@ Global
 		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3166D61A-13A0-4B15-9260-95B0DEC94F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3166D61A-13A0-4B15-9260-95B0DEC94F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3166D61A-13A0-4B15-9260-95B0DEC94F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3166D61A-13A0-4B15-9260-95B0DEC94F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E07DADF-45DC-4490-B217-C35C859910A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E07DADF-45DC-4490-B217-C35C859910A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E07DADF-45DC-4490-B217-C35C859910A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E07DADF-45DC-4490-B217-C35C859910A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,5 +63,8 @@ Global
 		{1D216613-363B-4B0B-AB6C-CFBEA477BD69} = {C07BE10E-3688-4A14-AE2E-8862B8A37BEC}
 		{AC7C0A22-5D4B-4D69-AFB1-3CBA1767D406} = {1D216613-363B-4B0B-AB6C-CFBEA477BD69}
 		{1CF0C6B6-B39F-4F8F-8FC7-948E12DE860B} = {726C445A-958F-402F-9F4E-A71ED53F5190}
+		{E20BF50C-D25B-4470-8296-1459BBAA94B8} = {3FB62BFA-69BD-45FE-BA25-0BB5D79632A1}
+		{3166D61A-13A0-4B15-9260-95B0DEC94F88} = {E20BF50C-D25B-4470-8296-1459BBAA94B8}
+		{7E07DADF-45DC-4490-B217-C35C859910A1} = {E20BF50C-D25B-4470-8296-1459BBAA94B8}
 	EndGlobalSection
 EndGlobal
